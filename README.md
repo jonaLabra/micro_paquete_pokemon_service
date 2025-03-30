@@ -16,20 +16,23 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Package to get data from pokemon api.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+to add package go to Pubspec.yaml in your project and add in dependencies segment this lines.
+
+```yaml
+pokemon_package_service:
+    git:
+      url: https://github.com/tu_usuario/mi_utilidades.git
+```
+
+And run this commando to add package in project.
 
 ```dart
-const like = 'sample';
+flutter pub get
 ```
 
 ## Additional information
