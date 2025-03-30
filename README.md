@@ -26,7 +26,7 @@ to add package go to Pubspec.yaml in your project and add in dependencies segmen
 ```yaml
 pokemon_package_service:
     git:
-      url: https://github.com/tu_usuario/mi_utilidades.git
+      url: https://github.com/jonaLabra/micro_paquete_pokemon_service.git
 ```
 
 And run this commando to add package in project.
